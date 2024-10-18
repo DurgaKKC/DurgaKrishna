@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --dark-blue: #020617;
+  --yellow-color: #eab308;
+  --primary: #111827;
+  --grey: #dddddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+  background-color: var(--primary);
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+
+.skills {
+    background-color: var(--primary);
+    padding: 200px 0;
+    width: 100%;
+    color: white;
+  }
+  
+  .skills h2 {
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .skills h2 span {
+    color: var(--yellow-color);
+  }
+  
+  .skills__flex {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .skills__box {
+    width: 41.66%;
+    margin: 10px auto;
+  }
+  
+  .skills__box .skills__title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    display: block;
+  }
+  
+  .skills__box .skills__bar {
+    width: 100%;
+    height: 10px;
+    background-color: var(--dark-blue);
+    border-radius: 2px;
+    margin-top: 5px;
+  }
+  
+  .skills__box .skills__bar .skills__per {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: var(--yellow-color);
+    border-radius: 2px;
+  }
+  
+  .skills__box .skills__bar .skills__per.html {
+    width: 90%;
+  }
+  
+  .skills__box .skills__bar .skills__per.css {
+    width: 45%;
+  }
+  
+  .skills__box .skills__bar .skills__per.php {
+    width: 25%;
+  }
+  
+  .skills__box .skills__bar .skills__per.mysql {
+    width: 60%;
+  }
+  
+  .skills__box .skills__bar .skills__per.canva {
+    width: 25%;
+  }
+  
+  .skills__box .skills__bar .skills__per.ms-pffice {
+    width: 45%;
+  }
